@@ -21,8 +21,8 @@ public class Cone implements Eatable{
 		STRAWBERRY(1), BANANA(1.2), CHOCOLATE(1), VANILLA(1), LEMON(1.2), STRACIATELLA(1.2), MOKKA(1.2), PISTACHE(1.2);
 		
 		private double price; 
-		private Flavor(double price) {
-			this.price = price; 
+		private Flavor(double indiceFlavorPrice) {
+			this.price = indiceFlavorPrice; 
 		}
 		
 		public double getPriceFlavor() {

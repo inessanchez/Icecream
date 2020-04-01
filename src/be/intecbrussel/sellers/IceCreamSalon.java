@@ -47,7 +47,4 @@ public class IceCreamSalon implements IceCreamSeller{
 		return "IceCreamSalon [priceList=" + priceList + ", totalProfit=" + totalProfit + "]";
 	}
 
-
-	
-	
 }

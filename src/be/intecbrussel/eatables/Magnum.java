@@ -3,7 +3,9 @@ package be.intecbrussel.eatables;
 public class Magnum implements Eatable{
 	private MagnumType magnumType; 
 	
-	public Magnum() {}
+	public Magnum() {
+		this(null); 
+	}
 	
 	public Magnum(MagnumType magnumTypeChoice) {
 		this.magnumType = magnumTypeChoice; 
@@ -24,8 +26,8 @@ public class Magnum implements Eatable{
 		
 		private double price; 
 		
-		private MagnumType(double price) {
-			this.price = price; 
+		private MagnumType(double indicePriceType) {
+			this.price = indicePriceType; 
 		}
 		
 		public double getPriceMagnumType() {

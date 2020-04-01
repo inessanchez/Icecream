@@ -49,12 +49,12 @@ public class IceCreamApp2 {
 		salon1.orderMagnum(MagnumType.ALPINENUTS);
 		
 		
-		System.out.println(stock.getBalls()); 
-		System.out.println(stock.getCones()); 
-		System.out.println(stock.getIceRockets()); 
-		System.out.println(stock.getMagni()); 
+		System.out.println("Stock balls: "+stock.getBalls()); 
+		System.out.println("Stock cones: "+stock.getCones()); 
+		System.out.println("Stock icerockets: "+stock.getIceRockets()); 
+		System.out.println("Stock magni: "+stock.getMagni()); 
 		
-		System.out.println(salon1.getProfit()); 
+		System.out.println("This is the profit: " +salon1.getProfit()); 
 
 	}
 

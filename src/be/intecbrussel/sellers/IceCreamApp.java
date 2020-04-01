@@ -19,15 +19,15 @@ public class IceCreamApp {
 		System.out.println(cone1.toString()); 
 		
 		IceCreamSeller salon1 = new IceCreamSalon(pricelist); 
-		System.out.println(salon1.getProfit()); 
+		System.out.println("This is the profit: " +salon1.getProfit()); 
 		Eatable eatable1 = salon1.orderCone(flavors1); 
 		System.out.println(salon1.toString());
-		System.out.println(salon1.getProfit()); 
+		System.out.println("This is the profit: " +salon1.getProfit()); 
 		Eatable eatable2 = salon1.orderIceRocket(); 
 		System.out.println(salon1.toString());
-		System.out.println(salon1.getProfit()); 
+		System.out.println("This is the profit: " +salon1.getProfit()); 
 		Eatable eatable3 = salon1.orderMagnum(MagnumType.ALPINENUTS); 
-		System.out.println(salon1.getProfit()); 
+		System.out.println("This is the profit: " +salon1.getProfit()); 
 		
 		Eatable[] icecreams = new Eatable[] { eatable1, eatable2, eatable3 };  
 		
@@ -35,9 +35,7 @@ public class IceCreamApp {
 			icecream.eat(); 
 		}
 		
-		System.out.println(salon1.getProfit()); 
-
-
+		System.out.println("This is the profit: " +salon1.getProfit()); 
 
 	}
 }

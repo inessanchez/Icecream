@@ -66,7 +66,8 @@ public class IceCreamCar implements IceCreamSeller{
 		} else {
 		stock.setIceRockets(stock.getIceRockets()-1);
 		this.profit = this.profit + pricelist.getRocketPrice();
-	
+		
+		System.out.println("Here is your IceRocket for " + pricelist.getRocketPrice()+ " euros");
 		return icerocket;
 		}
 	}
@@ -90,6 +91,8 @@ public class IceCreamCar implements IceCreamSeller{
 		
 		stock.setMagni(stock.getMagni()-1);
 		this.profit = this.profit + pricelist.getMagnumPrice(magnum.getType()); 
+		System.out.println("Here is your "+ magnum.getType()+" for " +pricelist.getMagnumPrice(magnum.getType()) + " euros");
+
 		
 		return magnum;	
 		}
